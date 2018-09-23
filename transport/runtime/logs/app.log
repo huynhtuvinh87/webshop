@@ -1,0 +1,1127 @@
+2018-07-16 14:13:10 [127.0.0.1][-][cc9d14a7a95ca538636981cb2f4d6b87][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: transport\models\BidForm::type in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/transport/controllers/AjaxController.php(35): yii\base\Component->__get('type')
+#1 [internal function]: transport\controllers\AjaxController->actionBid()
+#2 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('bid', Array)
+#5 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('ajax/bid', Array)
+#6 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/AMPPS/www/giataivuon/transport/web/index.php(14): yii\base\Application->run()
+#8 {main}
+2018-07-16 14:13:10 [127.0.0.1][-][cc9d14a7a95ca538636981cb2f4d6b87][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-transport' => 'TIl_zLlo5ZeoTflJn6gSHby_E18Swo6L6bTDCstVsl948Q2E6CrWpYUMsCPw_HAo7vFcKUDv1uKv85VFuh6DFA=='
+    'BidForm' => [
+        'id' => '5b418608df6672239a382552'
+        'product_name' => 'Chôm chôm abc'
+        'phone' => '905951699'
+        'number' => '12345'
+        'price' => '123'
+        'commitment' => 'sfed swdfd'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'cc9d14a7a95ca538636981cb2f4d6b87'
+    '_csrf-transport' => 'eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a:2:{i:0;s:15:\"_csrf-transport\";i:1;s:32:\"4xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '5b32ff63df667207637ad191'
+    'cart' => []
+    'transport' => [
+        '5b408083df66721329189992' => transport\models\TransportItem#1
+        (
+            [transport\models\TransportItem:phone] => '0905951699'
+            [transport\models\TransportItem:number] => '12345'
+            [transport\models\TransportItem:price] => '1000000'
+            [transport\models\TransportItem:commitment] => null
+            [transport\models\TransportItem:product_order] => [
+                'id' => '5b408083df66721329189992'
+                'title' => 'Chôm chôm abc'
+                'order' => [
+                    'id' => '5b408083df66721329189991'
+                    'name' => 'Nhà vườn Đà Nẵng'
+                    'phone' => '1234567890'
+                    'address' => 'scd ada'
+                    'ward' => 'Phúc Xá'
+                    'district' => 'Ba Đình'
+                    'province' => 'Hà Nội'
+                ]
+            ]
+            [transport\models\TransportItem:params] => [
+                'key' => 'transport'
+                'expire' => 604800
+            ]
+            [transport\models\TransportItem:type] => null
+            [transport\models\TransportItem:weight] => '1'
+            [transport\models\TransportItem:time_begin] => '15/07/2018 16:01:44'
+            [transport\models\TransportItem:time_end] => '16/07/2018 23:59:59'
+        )
+        '5b418608df6672239a382552' => transport\models\TransportItem#2
+        (
+            [transport\models\TransportItem:phone] => '905951699'
+            [transport\models\TransportItem:number] => '12345'
+            [transport\models\TransportItem:price] => '123'
+            [transport\models\TransportItem:commitment] => null
+            [transport\models\TransportItem:product_order] => [
+                'id' => '5b418608df6672239a382552'
+                'title' => 'Chôm chôm abc'
+                'order' => [
+                    'id' => '5b418608df6672239a382551'
+                    'name' => 'Nhà vườn Đà Nẵng'
+                    'phone' => '1234567890'
+                    'address' => 'So 19'
+                    'ward' => 'Phúc Xá'
+                    'district' => 'Ba Đình'
+                    'province' => 'Hà Nội'
+                ]
+            ]
+            [transport\models\TransportItem:params] => [
+                'key' => 'transport'
+                'expire' => 604800
+            ]
+            [transport\models\TransportItem:type] => null
+            [transport\models\TransportItem:weight] => '1'
+            [transport\models\TransportItem:time_begin] => '16/07/2018 16:05:39'
+            [transport\models\TransportItem:time_end] => '17/07/2018 23:59:59'
+        )
+        '5b418608df6672239a382553' => transport\models\TransportItem#3
+        (
+            [transport\models\TransportItem:phone] => '905951699'
+            [transport\models\TransportItem:number] => '12345'
+            [transport\models\TransportItem:price] => '1000000'
+            [transport\models\TransportItem:commitment] => null
+            [transport\models\TransportItem:product_order] => [
+                'id' => '5b418608df6672239a382553'
+                'title' => 'Bửu ngon'
+                'order' => [
+                    'id' => '5b418608df6672239a382551'
+                    'name' => 'Nhà vườn Đà Nẵng'
+                    'phone' => '1234567890'
+                    'address' => 'So 19'
+                    'ward' => 'Phúc Xá'
+                    'district' => 'Ba Đình'
+                    'province' => 'Hà Nội'
+                ]
+            ]
+            [transport\models\TransportItem:params] => [
+                'key' => 'transport'
+                'expire' => 604800
+            ]
+            [transport\models\TransportItem:type] => null
+            [transport\models\TransportItem:weight] => '1'
+            [transport\models\TransportItem:time_begin] => '16/07/2018 16:06:51'
+            [transport\models\TransportItem:time_end] => '17/07/2018 23:59:59'
+        )
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '312'
+    'HTTP_ORIGIN' => 'http://vanchuyen.giataivuon.loc'
+    'HTTP_X_CSRF_TOKEN' => 'qIrDwoXhjjA17Xf6ekDIDZYotFtDQgHAKWVafiZ68vqc8rGK1KO9AhisPpAVFKo4xGb7LRFvWalvIgwxVzHDsQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=cc9d14a7a95ca538636981cb2f4d6b87; _csrf-transport=eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-transport%22%3Bi%3A1%3Bs%3A32%3A%224xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '58038'
+    'REDIRECT_URL' => '/ajax/bid'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ajax/bid'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1531725190.782
+    'REQUEST_TIME' => 1531725190
+]
+2018-07-16 14:44:08 [127.0.0.1][-][cc9d14a7a95ca538636981cb2f4d6b87][error][Error] Error: Call to undefined method transport\models\TransportItem::setPrice() in /Applications/AMPPS/www/giataivuon/transport/models/Transport.php:86
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/transport/controllers/AjaxController.php(26): transport\models\Transport->change('5b418608df66722...', 1)
+#1 [internal function]: transport\controllers\AjaxController->actionBid()
+#2 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('bid', Array)
+#5 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('ajax/bid', Array)
+#6 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /Applications/AMPPS/www/giataivuon/transport/web/index.php(14): yii\base\Application->run()
+#8 {main}
+2018-07-16 14:44:08 [127.0.0.1][-][cc9d14a7a95ca538636981cb2f4d6b87][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-transport' => 'UvXrrCaceNEmtE7sJkJBEVjGYcxyk2i4MeD611wAmrRmjZnkd95L4wv1B4ZJFiMkCoguuiC-MNF3p6yYLUur_w=='
+    'BidForm' => [
+        'id' => '5b418608df6672239a382552'
+        'product_name' => 'Chôm chôm abc'
+        'phone' => '905951699'
+        'number' => '12345'
+        'price' => '10'
+        'commitment' => 'dsasfsds'
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'cc9d14a7a95ca538636981cb2f4d6b87'
+    '_csrf-transport' => 'eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a:2:{i:0;s:15:\"_csrf-transport\";i:1;s:32:\"4xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '5b32ff63df667207637ad191'
+    'cart' => []
+    'transport' => [
+        '5b418608df6672239a382552' => transport\models\TransportItem#1
+        (
+            [transport\models\TransportItem:phone] => '0905951699'
+            [transport\models\TransportItem:number] => '12345'
+            [transport\models\TransportItem:price] => '1000'
+            [transport\models\TransportItem:commitment] => 'dsasfsds'
+            [transport\models\TransportItem:product_order] => [
+                'id' => '5b418608df6672239a382552'
+                'title' => 'Chôm chôm abc'
+                'order' => [
+                    'id' => '5b418608df6672239a382551'
+                    'name' => 'Nhà vườn Đà Nẵng'
+                    'phone' => '1234567890'
+                    'address' => 'So 19'
+                    'ward' => 'Phúc Xá'
+                    'district' => 'Ba Đình'
+                    'province' => 'Hà Nội'
+                ]
+            ]
+            [transport\models\TransportItem:params] => [
+                'key' => 'transport'
+                'expire' => 604800
+            ]
+        )
+    ]
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '309'
+    'HTTP_ORIGIN' => 'http://vanchuyen.giataivuon.loc'
+    'HTTP_X_CSRF_TOKEN' => 'T6KpPRFvXEYWdBBkqDUKbaD4B4ePxDvp_ICxP0MAU_Z72tt1QC1vdDs1WQ7HYWhY8rZI8d3pY4C6x-dwMktivQ=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=cc9d14a7a95ca538636981cb2f4d6b87; _csrf-transport=eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-transport%22%3Bi%3A1%3Bs%3A32%3A%224xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '49546'
+    'REDIRECT_URL' => '/ajax/bid'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ajax/bid'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1531727048.674
+    'REQUEST_TIME' => 1531727048
+]
+2018-07-16 15:17:02 [127.0.0.1][5b32ff63df667207637ad191][cc9d14a7a95ca538636981cb2f4d6b87][error][Error] Error: Call to a member function getProductOrder() on null in /Applications/AMPPS/www/giataivuon/transport/views/site/_item.php:11
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(336): require()
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/Applications/A...', Array)
+#2 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Applications/A...', Array, NULL)
+#3 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/widgets/ListView.php(191): yii\base\View->render('_item', Array)
+#4 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/widgets/ListView.php(124): yii\widgets\ListView->renderItem(Array, 0, 0)
+#5 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/widgets/BaseListView.php(160): yii\widgets\ListView->renderItems()
+#6 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/widgets/BaseListView.php(135): yii\widgets\BaseListView->renderSection('{items}')
+#7 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#8 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/widgets/BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n<div cl...')
+#9 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Widget.php(140): yii\widgets\BaseListView->run()
+#10 /Applications/AMPPS/www/giataivuon/transport/views/site/index.php(49): yii\base\Widget::widget(Array)
+#11 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(336): require('/Applications/A...')
+#12 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/Applications/A...', Array)
+#13 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Applications/A...', Array, Object(transport\controllers\SiteController))
+#14 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(transport\controllers\SiteController))
+#15 /Applications/AMPPS/www/giataivuon/transport/controllers/SiteController.php(53): yii\base\Controller->render('index', Array)
+#16 [internal function]: transport\controllers\SiteController->actionIndex()
+#17 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#18 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#19 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#20 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#21 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /Applications/AMPPS/www/giataivuon/transport/web/index.php(14): yii\base\Application->run()
+#23 {main}
+2018-07-16 15:17:02 [127.0.0.1][5b32ff63df667207637ad191][cc9d14a7a95ca538636981cb2f4d6b87][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'cc9d14a7a95ca538636981cb2f4d6b87'
+    '_csrf-transport' => 'eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a:2:{i:0;s:15:\"_csrf-transport\";i:1;s:32:\"4xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '5b32ff63df667207637ad191'
+    'cart' => []
+    'transport' => [
+        '5b418608df6672239a382552' => transport\models\TransportItem#1
+        (
+            [transport\models\TransportItem:phone] => '0905955699'
+            [transport\models\TransportItem:number] => '12345'
+            [transport\models\TransportItem:price] => '1000'
+            [transport\models\TransportItem:commitment] => 'xaaaad'
+            [transport\models\TransportItem:product_order] => [
+                'id' => '5b418608df6672239a382552'
+                'bid' => '5b4c53ffdf6672f9e871fa53'
+                'title' => 'Chôm chôm abc'
+                'order' => [
+                    'id' => '5b418608df6672239a382551'
+                    'name' => 'Nhà vườn Đà Nẵng'
+                    'phone' => '1234567890'
+                    'address' => 'So 19'
+                    'ward' => 'Phúc Xá'
+                    'district' => 'Ba Đình'
+                    'province' => 'Hà Nội'
+                ]
+            ]
+            [transport\models\TransportItem:params] => [
+                'key' => 'transport'
+                'expire' => 604800
+            ]
+        )
+    ]
+]
+
+$_SERVER = [
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=cc9d14a7a95ca538636981cb2f4d6b87; _csrf-transport=eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-transport%22%3Bi%3A1%3Bs%3A32%3A%224xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '54013'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1531729022.339
+    'REQUEST_TIME' => 1531729022
+]
+2018-07-16 15:17:38 [127.0.0.1][5b32ff63df667207637ad191][cc9d14a7a95ca538636981cb2f4d6b87][error][Error] Error: Call to a member function getProductOrder() on null in /Applications/AMPPS/www/giataivuon/transport/views/site/_item.php:11
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(336): require()
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/Applications/A...', Array)
+#2 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Applications/A...', Array, NULL)
+#3 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/widgets/ListView.php(191): yii\base\View->render('_item', Array)
+#4 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/widgets/ListView.php(124): yii\widgets\ListView->renderItem(Array, 0, 0)
+#5 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/widgets/BaseListView.php(160): yii\widgets\ListView->renderItems()
+#6 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/widgets/BaseListView.php(135): yii\widgets\BaseListView->renderSection('{items}')
+#7 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#8 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/widgets/BaseListView.php(138): preg_replace_callback('/{\\w+}/', Object(Closure), '{items}\n<div cl...')
+#9 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Widget.php(140): yii\widgets\BaseListView->run()
+#10 /Applications/AMPPS/www/giataivuon/transport/views/site/index.php(49): yii\base\Widget::widget(Array)
+#11 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(336): require('/Applications/A...')
+#12 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/Applications/A...', Array)
+#13 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/Applications/A...', Array, Object(transport\controllers\SiteController))
+#14 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Controller.php(384): yii\base\View->render('index', Array, Object(transport\controllers\SiteController))
+#15 /Applications/AMPPS/www/giataivuon/transport/controllers/SiteController.php(53): yii\base\Controller->render('index', Array)
+#16 [internal function]: transport\controllers\SiteController->actionIndex()
+#17 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#18 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#19 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#20 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#21 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /Applications/AMPPS/www/giataivuon/transport/web/index.php(14): yii\base\Application->run()
+#23 {main}
+2018-07-16 15:17:38 [127.0.0.1][5b32ff63df667207637ad191][cc9d14a7a95ca538636981cb2f4d6b87][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'cc9d14a7a95ca538636981cb2f4d6b87'
+    '_csrf-transport' => 'eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a:2:{i:0;s:15:\"_csrf-transport\";i:1;s:32:\"4xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '5b32ff63df667207637ad191'
+    'cart' => []
+    'transport' => [
+        '5b418608df6672239a382552' => transport\models\TransportItem#1
+        (
+            [transport\models\TransportItem:phone] => '0905955699'
+            [transport\models\TransportItem:number] => '12345'
+            [transport\models\TransportItem:price] => '1000'
+            [transport\models\TransportItem:commitment] => 'xaaaad'
+            [transport\models\TransportItem:product_order] => [
+                'id' => '5b418608df6672239a382552'
+                'bid' => '5b4c53ffdf6672f9e871fa53'
+                'title' => 'Chôm chôm abc'
+                'order' => [
+                    'id' => '5b418608df6672239a382551'
+                    'name' => 'Nhà vườn Đà Nẵng'
+                    'phone' => '1234567890'
+                    'address' => 'So 19'
+                    'ward' => 'Phúc Xá'
+                    'district' => 'Ba Đình'
+                    'province' => 'Hà Nội'
+                ]
+            ]
+            [transport\models\TransportItem:params] => [
+                'key' => 'transport'
+                'expire' => 604800
+            ]
+        )
+    ]
+]
+
+$_SERVER = [
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=cc9d14a7a95ca538636981cb2f4d6b87; _csrf-transport=eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-transport%22%3Bi%3A1%3Bs%3A32%3A%224xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '54172'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1531729058.135
+    'REQUEST_TIME' => 1531729058
+]
+2018-07-16 15:57:02 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: ajax/remove in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('remove', Array)
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('ajax/remove', Array)
+#2 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/AMPPS/www/giataivuon/transport/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/giataivuon/transport/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-07-16 15:57:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '5b418608df6672239a382552'
+    'bid' => '5b4c5dd6df667299a63e5249'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'cc9d14a7a95ca538636981cb2f4d6b87'
+    '_csrf-transport' => 'eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a:2:{i:0;s:15:\"_csrf-transport\";i:1;s:32:\"4xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'OlKvwMMbYbZTLqtYeEHiqt0T0G7RskJMwL4VhhBvCysOKt2IkllShH5v4jIXFYCfj12fGIOfGiWG-UPJYSQ6YA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=cc9d14a7a95ca538636981cb2f4d6b87; _csrf-transport=eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-transport%22%3Bi%3A1%3Bs%3A32%3A%224xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '62859'
+    'REDIRECT_URL' => '/ajax/remove/5b418608df6672239a382552'
+    'REDIRECT_QUERY_STRING' => 'bid=5b4c5dd6df667299a63e5249'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'bid=5b4c5dd6df667299a63e5249'
+    'REQUEST_URI' => '/ajax/remove/5b418608df6672239a382552?bid=5b4c5dd6df667299a63e5249'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1531731422.273
+    'REQUEST_TIME' => 1531731422
+]
+2018-07-16 15:57:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: ajax/remove in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('remove', Array)
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('ajax/remove', Array)
+#2 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/AMPPS/www/giataivuon/transport/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/giataivuon/transport/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-07-16 15:57:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '5b418608df6672239a382552'
+    'bid' => '5b4c5dd6df667299a63e5249'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'cc9d14a7a95ca538636981cb2f4d6b87'
+    '_csrf-transport' => 'eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a:2:{i:0;s:15:\"_csrf-transport\";i:1;s:32:\"4xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'd6ByU82Ol_L-9BidHPTXaNivmsewOkZdJYJoLZMsjXRD2AAbnMykwNO1UfdzoLVdiuHVseIXHjRjxT5i4me8Pw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=cc9d14a7a95ca538636981cb2f4d6b87; _csrf-transport=eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-transport%22%3Bi%3A1%3Bs%3A32%3A%224xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '63057'
+    'REDIRECT_URL' => '/ajax/remove/5b418608df6672239a382552'
+    'REDIRECT_QUERY_STRING' => 'bid=5b4c5dd6df667299a63e5249'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'bid=5b4c5dd6df667299a63e5249'
+    'REQUEST_URI' => '/ajax/remove/5b418608df6672239a382552?bid=5b4c5dd6df667299a63e5249'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1531731465.863
+    'REQUEST_TIME' => 1531731465
+]
+2018-07-16 15:58:15 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: ajax/remove in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('remove', Array)
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('ajax/remove', Array)
+#2 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /Applications/AMPPS/www/giataivuon/transport/web/index.php(14): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/giataivuon/transport/web/index.php(14): yii\base\Application->run()
+#2 {main}
+2018-07-16 15:58:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '5b418608df6672239a382552'
+]
+
+$_POST = [
+    'bid' => '5b4c5dd6df667299a63e5249'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'cc9d14a7a95ca538636981cb2f4d6b87'
+    '_csrf-transport' => 'eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a:2:{i:0;s:15:\"_csrf-transport\";i:1;s:32:\"4xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '28'
+    'HTTP_ORIGIN' => 'http://vanchuyen.giataivuon.loc'
+    'HTTP_X_CSRF_TOKEN' => 'Rg2-09EhBzAtTBVPUeD-UHqy1z4hr4vmILieEOEObdlydcybgGM0AgANXCU-tJxlKPyYSHOC049m_8hfkEVckg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=cc9d14a7a95ca538636981cb2f4d6b87; _csrf-transport=eb82e648967ca0c44f4fc2dbc8e85e32904e7fe558b915eb86d752f4f12d1cd3a%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22_csrf-transport%22%3Bi%3A1%3Bs%3A32%3A%224xrHQB32-AIjoTb5RNOvR-XiFGVOqK1K%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '63167'
+    'REDIRECT_URL' => '/ajax/remove/5b418608df6672239a382552'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ajax/remove/5b418608df6672239a382552'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1531731495.122
+    'REQUEST_TIME' => 1531731495
+]
+2018-07-29 14:26:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "template/images/icon-appstore.png". in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('template/images...', Array)
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2018-07-29 14:26:31 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'be865e897d2883d8cc8b9d9c7fa2f827'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=be865e897d2883d8cc8b9d9c7fa2f827'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '61070'
+    'REDIRECT_URL' => '/template/images/icon-appstore.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/template/images/icon-appstore.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532849191.487
+    'REQUEST_TIME' => 1532849191
+]
+2018-07-29 14:26:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "template/icon/flower4.png". in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('template/icon/f...', Array)
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2018-07-29 14:26:31 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'be865e897d2883d8cc8b9d9c7fa2f827'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=be865e897d2883d8cc8b9d9c7fa2f827'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '61068'
+    'REDIRECT_URL' => '/template/icon/flower4.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/template/icon/flower4.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532849191.653
+    'REQUEST_TIME' => 1532849191
+]
+2018-07-29 14:26:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "template/images/icon-googleplay.png". in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('template/images...', Array)
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2018-07-29 14:26:31 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'be865e897d2883d8cc8b9d9c7fa2f827'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=be865e897d2883d8cc8b9d9c7fa2f827'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '61073'
+    'REDIRECT_URL' => '/template/images/icon-googleplay.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/template/images/icon-googleplay.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532849191.609
+    'REQUEST_TIME' => 1532849191
+]
+2018-07-29 14:26:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "template/images/close.png". in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('template/images...', Array)
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2018-07-29 14:26:31 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'be865e897d2883d8cc8b9d9c7fa2f827'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=be865e897d2883d8cc8b9d9c7fa2f827'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '61072'
+    'REDIRECT_URL' => '/template/images/close.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/template/images/close.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532849191.609
+    'REQUEST_TIME' => 1532849191
+]
+2018-07-29 14:26:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "template/images/no-avatar.gif". in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('template/images...', Array)
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2018-07-29 14:26:31 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'be865e897d2883d8cc8b9d9c7fa2f827'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=be865e897d2883d8cc8b9d9c7fa2f827'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '61071'
+    'REDIRECT_URL' => '/template/images/no-avatar.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/template/images/no-avatar.gif'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532849191.611
+    'REQUEST_TIME' => 1532849191
+]
+2018-07-29 14:26:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "template/icon/fruit.png". in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('template/icon/f...', Array)
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2018-07-29 14:26:31 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'be865e897d2883d8cc8b9d9c7fa2f827'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=be865e897d2883d8cc8b9d9c7fa2f827'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '61069'
+    'REDIRECT_URL' => '/template/icon/fruit.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/template/icon/fruit.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532849191.623
+    'REQUEST_TIME' => 1532849191
+]
+2018-07-29 14:26:31 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "template/icon/vegetable.png". in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('template/icon/v...', Array)
+#1 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /Applications/AMPPS/www/giataivuon/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/AMPPS/www/giataivuon/transport/web/index.php(16): yii\base\Application->run()
+#2 {main}
+2018-07-29 14:26:31 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_giataivuon' => 'be865e897d2883d8cc8b9d9c7fa2f827'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_TMP' => '/Applications/AMPPS/tmp'
+    'REDIRECT_STATUS' => '200'
+    'TMP' => '/Applications/AMPPS/tmp'
+    'HTTP_HOST' => 'vanchuyen.giataivuon.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://vanchuyen.giataivuon.loc/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,vi;q=0.8'
+    'HTTP_COOKIE' => '_giataivuon=be865e897d2883d8cc8b9d9c7fa2f827'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Unix) PHP/7.1.2 mod_wsgi/4.5.11 Python/3.6 OpenSSL/1.0.1p'
+    'SERVER_NAME' => 'vanchuyen.giataivuon.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/AMPPS/www/giataivuon/transport/web'
+    'SERVER_ADMIN' => 'admin@localhost'
+    'SCRIPT_FILENAME' => '/Applications/AMPPS/www/giataivuon/transport/web/index.php'
+    'REMOTE_PORT' => '61078'
+    'REDIRECT_URL' => '/template/icon/vegetable.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/template/icon/vegetable.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1532849191.77
+    'REQUEST_TIME' => 1532849191
+]

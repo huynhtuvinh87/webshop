@@ -1,6 +1,52 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+# yii console commands
+/yii
+/yii_test
+/yii_test.bat
+/sftp-config.json
+/frontend/web/uploads
+/message/web/uploads
+/cdn/web/images
+/frontend/web/assets
+/frontend/runtime
+/backend/web/assets
+/backend/runtime
+/account/web/assets
+/account/runtime
+/cdn/web/assets
+/cdn/runtime
+/message/web/assets
+/message/runtime
+/seller/web/assets
+/seller/runtime
+/forum/runtime
+/forum/web/assets
+/forum/web/uploads
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+/.git
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant

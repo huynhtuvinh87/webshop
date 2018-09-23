@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Applications/AMPPS/www/giataivuon/common/components/SendMail.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/frontend/views/cart/checkout.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/seller/controllers/ProductController.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/frontend/controllers/CartController.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/backend/views/seller/view.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/frontend/widgets/views/footer.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/seller/views/layouts/main.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/transport/widgets/SidebarWidget.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/seller/views/seller/index.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/console/controllers/SendmailController.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/frontend/views/product/price/default.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/backend/controllers/ProductController.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/frontend/widgets/views/header.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/backend/views/seller/index.php</file>
+            <file>file:/Applications/AMPPS/www/giataivuon/backend/controllers/SellerController.php</file>
+        </group>
+    </open-files>
+</project-private>
